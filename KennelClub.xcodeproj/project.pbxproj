@@ -8,17 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		81A9088A2C09A7B30053BFC8 /* KennelClubApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A908892C09A7B30053BFC8 /* KennelClubApp.swift */; };
-		81A9088C2C09A7B30053BFC8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A9088B2C09A7B30053BFC8 /* ContentView.swift */; };
 		81A9088E2C09A7B40053BFC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81A9088D2C09A7B40053BFC8 /* Assets.xcassets */; };
 		81A908912C09A7B40053BFC8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81A908902C09A7B40053BFC8 /* Preview Assets.xcassets */; };
+		81A9089B2C09A8390053BFC8 /* Breed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A908972C09A8390053BFC8 /* Breed.swift */; };
+		81A9089C2C09A8390053BFC8 /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A908982C09A8390053BFC8 /* Dog.swift */; };
+		81A9089D2C09A8390053BFC8 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A908992C09A8390053BFC8 /* Person.swift */; };
+		81A908A32C09A8490053BFC8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A9089E2C09A8490053BFC8 /* ContentView.swift */; };
+		81A908A42C09A8490053BFC8 /* PeopleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A9089F2C09A8490053BFC8 /* PeopleView.swift */; };
+		81A908A52C09A8490053BFC8 /* PersonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A908A02C09A8490053BFC8 /* PersonView.swift */; };
+		81A908A62C09A8490053BFC8 /* TextFieldModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A908A12C09A8490053BFC8 /* TextFieldModifier.swift */; };
+		81A908AA2C09A85D0053BFC8 /* PeopleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A908A72C09A85D0053BFC8 /* PeopleViewModel.swift */; };
+		81A908AB2C09A85D0053BFC8 /* PersonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A908A82C09A85D0053BFC8 /* PersonViewModel.swift */; };
+		81A908AE2C09A8650053BFC8 /* RealmService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A908AC2C09A8650053BFC8 /* RealmService.swift */; };
+		81A908B12C09A88A0053BFC8 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 81A908B02C09A88A0053BFC8 /* RealmSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		81A908862C09A7B30053BFC8 /* KennelClub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KennelClub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81A908892C09A7B30053BFC8 /* KennelClubApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KennelClubApp.swift; sourceTree = "<group>"; };
-		81A9088B2C09A7B30053BFC8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		81A9088D2C09A7B40053BFC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81A908902C09A7B40053BFC8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		81A908972C09A8390053BFC8 /* Breed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Breed.swift; sourceTree = "<group>"; };
+		81A908982C09A8390053BFC8 /* Dog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
+		81A908992C09A8390053BFC8 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		81A9089E2C09A8490053BFC8 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		81A9089F2C09A8490053BFC8 /* PeopleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleView.swift; sourceTree = "<group>"; };
+		81A908A02C09A8490053BFC8 /* PersonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonView.swift; sourceTree = "<group>"; };
+		81A908A12C09A8490053BFC8 /* TextFieldModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldModifier.swift; sourceTree = "<group>"; };
+		81A908A72C09A85D0053BFC8 /* PeopleViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleViewModel.swift; sourceTree = "<group>"; };
+		81A908A82C09A85D0053BFC8 /* PersonViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonViewModel.swift; sourceTree = "<group>"; };
+		81A908AC2C09A8650053BFC8 /* RealmService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81A908B12C09A88A0053BFC8 /* RealmSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,7 +72,10 @@
 			isa = PBXGroup;
 			children = (
 				81A908892C09A7B30053BFC8 /* KennelClubApp.swift */,
-				81A9088B2C09A7B30053BFC8 /* ContentView.swift */,
+				81A9089A2C09A8390053BFC8 /* Model */,
+				81A908A22C09A8490053BFC8 /* View */,
+				81A908A92C09A85D0053BFC8 /* ViewModel */,
+				81A908AD2C09A8650053BFC8 /* Service */,
 				81A9088D2C09A7B40053BFC8 /* Assets.xcassets */,
 				81A9088F2C09A7B40053BFC8 /* Preview Content */,
 			);
@@ -65,6 +88,44 @@
 				81A908902C09A7B40053BFC8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		81A9089A2C09A8390053BFC8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				81A908972C09A8390053BFC8 /* Breed.swift */,
+				81A908982C09A8390053BFC8 /* Dog.swift */,
+				81A908992C09A8390053BFC8 /* Person.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		81A908A22C09A8490053BFC8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				81A9089E2C09A8490053BFC8 /* ContentView.swift */,
+				81A9089F2C09A8490053BFC8 /* PeopleView.swift */,
+				81A908A02C09A8490053BFC8 /* PersonView.swift */,
+				81A908A12C09A8490053BFC8 /* TextFieldModifier.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		81A908A92C09A85D0053BFC8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				81A908A72C09A85D0053BFC8 /* PeopleViewModel.swift */,
+				81A908A82C09A85D0053BFC8 /* PersonViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		81A908AD2C09A8650053BFC8 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				81A908AC2C09A8650053BFC8 /* RealmService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +144,9 @@
 			dependencies = (
 			);
 			name = KennelClub;
+			packageProductDependencies = (
+				81A908B02C09A88A0053BFC8 /* RealmSwift */,
+			);
 			productName = KennelClub;
 			productReference = 81A908862C09A7B30053BFC8 /* KennelClub.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +175,9 @@
 				Base,
 			);
 			mainGroup = 81A9087D2C09A7B30053BFC8;
+			packageReferences = (
+				81A908AF2C09A88A0053BFC8 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = 81A908872C09A7B30053BFC8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,7 +204,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81A9088C2C09A7B30053BFC8 /* ContentView.swift in Sources */,
+				81A9089D2C09A8390053BFC8 /* Person.swift in Sources */,
+				81A908AE2C09A8650053BFC8 /* RealmService.swift in Sources */,
+				81A908AB2C09A85D0053BFC8 /* PersonViewModel.swift in Sources */,
+				81A908AA2C09A85D0053BFC8 /* PeopleViewModel.swift in Sources */,
+				81A9089B2C09A8390053BFC8 /* Breed.swift in Sources */,
+				81A908A42C09A8490053BFC8 /* PeopleView.swift in Sources */,
+				81A908A32C09A8490053BFC8 /* ContentView.swift in Sources */,
+				81A908A52C09A8490053BFC8 /* PersonView.swift in Sources */,
+				81A908A62C09A8490053BFC8 /* TextFieldModifier.swift in Sources */,
+				81A9089C2C09A8390053BFC8 /* Dog.swift in Sources */,
 				81A9088A2C09A7B30053BFC8 /* KennelClubApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -344,6 +420,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		81A908AF2C09A88A0053BFC8 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		81A908B02C09A88A0053BFC8 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 81A908AF2C09A88A0053BFC8 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 81A9087E2C09A7B30053BFC8 /* Project object */;
 }
